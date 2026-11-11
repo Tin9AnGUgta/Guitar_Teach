@@ -4,7 +4,8 @@
 
 ## GitHub 遠端驗收
 已將專案上傳至 https://github.com/Tin9AnGUgta/Guitar_Teach ，commit af959da26254eb85854df98fd926e428007c81d7。
-Run 43006575544 的 npm run build 與 npm test 皆成功，檢查結果同本機。configure-pages@v5 回報 Get Pages site failed / Not Found，表示需要在 Settings → Pages 將 Source 設為 GitHub Actions。deploy job 因此前置失敗而跳過；公開部署尚未完成。
+Run 43006575544 首次的 npm run build 與 npm test 皆成功，configure-pages 因 Pages 未啟用而失敗。使用者設定 Source 為 GitHub Actions 後重跑，第二次 build（job 130478514105）與 deploy（job 130478595116）皆成功。
+部署日誌確認正式網址為 https://tin9angugta.github.io/Guitar_Teach/ 。實際 HTTP 驗證：首頁及四篇教學均 200，assets/style.css 與 assets/app.js 均 200；missing.html 為 404 且包含 Guitar Wiki 自訂頁面。
 
 ## 已執行
 1. node scripts/build.mjs：成功產生首頁、四篇文章、404 與共用資源。
@@ -22,4 +23,5 @@ Run 43006575544 的 npm run build 與 npm test 皆成功，檢查結果同本機
 ## 尚未驗證
 再次測試 HTTP：首頁 / 為 200、/lessons/fingerstyle-pattern.html 為 200、/missing.html 為 404，皆回傳 Guitar Wiki 頁面。GitHub 連接器可讀取帳號及 repository 清單，但未提供建立 repository 或啟用 Pages 的工具；瀏覽器重試仍回報 browser access host unavailable。
 
-瀏覽器工具先回報 browser access host unavailable，後因無法可靠識別 Windows 目前瀏覽器網址而停止。桌面及手機視覺、實際鍵盤操作、列印、真實瀏覽器 console 尚未驗證。GitHub Actions 執行與公開 Pages 網址尚未驗證。不得把上述自動檢查視為這些項目的完成證據。
+瀏覽器工具先回報 browser access host unavailable，後因無法可靠識別 Windows 目前瀏覽器網址而停止。桌面及手機視覺、實際鍵盤操作、列印、真實瀏覽器 console 尚未驗證。不得把上述自動檢查與 HTTP 成功視為這些項目的完成證據。
+
