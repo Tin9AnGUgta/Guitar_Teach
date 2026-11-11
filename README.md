@@ -1,1 +1,1 @@
-# Guitar_Teach
+# guitar-wiki
