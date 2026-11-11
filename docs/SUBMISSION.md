@@ -20,8 +20,10 @@
 - 原始碼：已上傳 GitHub main 分支，保留原有歷史。
 - GitHub Repository：https://github.com/Tin9AnGUgta/Guitar_Teach
 - 首次上傳 commit：af959da26254eb85854df98fd926e428007c81d7。
-- GitHub Actions：https://github.com/Tin9AnGUgta/Guitar_Teach/actions/runs/43006575544 。遠端 Node.js 22 建置與測試成功；configure-pages 因 repository 尚未啟用 Pages 而失敗，部署未執行。
-- GitHub Pages 公開網址：待部署及實際驗證。
+- GitHub Actions：https://github.com/Tin9AnGUgta/Guitar_Teach/actions/runs/43006575544 。第二次執行的 build 與 deploy 皆成功。
+- GitHub Pages 公開網址：https://tin9angugta.github.io/Guitar_Teach/
+- 公開驗證：首頁、四篇文章、CSS 與 JavaScript 均為 HTTP 200；不存在路徑為 HTTP 404，顯示自訂 Guitar Wiki 頁面。
 - 視覺驗證：受瀏覽器工具限制，尚未完成。
 
-此文件為待部署的繳交草稿；取得實際 repository 與 Pages URL 後必須更新，不能以預測網址冒充完成。
+可繳交本文件、AGENTS.md、Repository 與公開網站網址。限制：自動檢查及公開 HTTP 驗證已完成，桌面／手機視覺、真實鍵盤操作及列印尚未完成瀏覽器驗證。
+
