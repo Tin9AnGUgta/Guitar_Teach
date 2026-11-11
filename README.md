@@ -1,5 +1,8 @@
 # Guitar Wiki
 
+公開網站：https://tin9angugta.github.io/Guitar_Teach/
+原始碼：https://github.com/Tin9AnGUgta/Guitar_Teach
+
 TAICA 生成式 AI 第 9 堂 Agentic Work 作業：以可重複使用的 AGENTS.md 驅動吉他技巧百科的內容與網站開發。
 
 ## 本機執行
@@ -33,3 +36,4 @@ npm run dev
 
 ## 內容與素材
 教學及短練習為本次專案自編；首頁吉他由 CSS 繪製，無外部圖片或字型。內容是學習練習建議，並非個別演奏能力的保證。疼痛時停止練習。
+
