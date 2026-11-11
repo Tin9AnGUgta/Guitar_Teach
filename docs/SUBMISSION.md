@@ -17,8 +17,10 @@
 
 ## 繳交連結與目前狀態
 - AGENTS.md：專案根目錄。
-- 原始碼：本機已完成，尚未上傳 GitHub。
-- GitHub Repository：待建立與上傳。
+- 原始碼：已上傳 GitHub main 分支，保留原有歷史。
+- GitHub Repository：https://github.com/Tin9AnGUgta/Guitar_Teach
+- 首次上傳 commit：af959da26254eb85854df98fd926e428007c81d7。
+- GitHub Actions：https://github.com/Tin9AnGUgta/Guitar_Teach/actions/runs/43006575544 。遠端 Node.js 22 建置與測試成功；configure-pages 因 repository 尚未啟用 Pages 而失敗，部署未執行。
 - GitHub Pages 公開網址：待部署及實際驗證。
 - 視覺驗證：受瀏覽器工具限制，尚未完成。
 

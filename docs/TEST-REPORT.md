@@ -1,6 +1,10 @@
 # 測試報告
 
-日期：2026-11-11。環境：Windows、本機 Node.js v26.13.0；CI 設定 Node.js 22，尚未執行遠端 CI。
+日期：2026-11-11。環境：Windows、本機 Node.js v26.13.0；GitHub Actions Ubuntu／Node.js v22.23.4。
+
+## GitHub 遠端驗收
+已將專案上傳至 https://github.com/Tin9AnGUgta/Guitar_Teach ，commit af959da26254eb85854df98fd926e428007c81d7。
+Run 43006575544 的 npm run build 與 npm test 皆成功，檢查結果同本機。configure-pages@v5 回報 Get Pages site failed / Not Found，表示需要在 Settings → Pages 將 Source 設為 GitHub Actions。deploy job 因此前置失敗而跳過；公開部署尚未完成。
 
 ## 已執行
 1. node scripts/build.mjs：成功產生首頁、四篇文章、404 與共用資源。
